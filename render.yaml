@@ -1,0 +1,14 @@
+
+services:
+  - type: web
+    name: crem-os
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python backend/agent.py
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
