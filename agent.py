@@ -17,7 +17,7 @@ AI recommends reviewing lease renewals on Units 108, 134, and 201
 # Email setup
 EMAIL_USER = os.environ.get("EMAIL_USER")
 EMAIL_PASS = os.environ.get("EMAIL_PASS")
-TO_EMAIL = EMAIL_USER  TO_EMAIL = "billionopoly@gmail.com"
+TO_EMAIL = EMAIL_USER  TO_EMAIL = "robert2carroll5@gmail.com"
 
 
 msg = MIMEText(summary)
