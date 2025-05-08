@@ -17,7 +17,8 @@ AI recommends reviewing lease renewals on Units 108, 134, and 201
 # Email setup
 EMAIL_USER = os.environ.get("EMAIL_USER")
 EMAIL_PASS = os.environ.get("EMAIL_PASS")
-TO_EMAIL = EMAIL_USER  # Sends to self
+TO_EMAIL = EMAIL_USER  TO_EMAIL = "billionopoly@gmail.com"
+
 
 msg = MIMEText(summary)
 msg["Subject"] = "📬 CREM.OS Portfolio Summary"
